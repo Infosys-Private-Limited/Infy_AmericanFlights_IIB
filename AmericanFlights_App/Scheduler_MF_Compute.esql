@@ -6,6 +6,7 @@ CREATE COMPUTE MODULE Scheduler_MF_Compute
 		-- CALL CopyMessageHeaders();
 		-- CALL CopyEntireMessage();
 		SET Books_Shared.Config = InputRoot.XMLNSC;
+		--added comment by saikiran Mallam
 		RETURN TRUE;
 	END;
 
